@@ -36,3 +36,63 @@
     transform: rotate(360deg);
   }
 }
+/* Styling for the sign-up container */
+.signup-container {
+  width: 300px; /* Define a fixed width for the container */
+  margin: 0 auto; /* Center the container */
+  padding: 20px; /* Add padding inside the container */
+  border: 1px solid #ccc; /* Add a border to the container */
+  border-radius: 5px; /* Round the corners of the container */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+/* Center the heading */
+.signup-container h2 {
+  text-align: center; /* Center the text */
+}
+
+/* Style the form to use flexbox for layout */
+.signup-container form {
+  display: flex; /* Use flexbox for the form layout */
+  flex-direction: column; /* Arrange children in a column */
+}
+
+/* Add margin to each form group */
+.signup-container div {
+  margin-bottom: 15px; /* Add space between form groups */
+}
+
+/* Style the label element */
+.signup-container label {
+  margin-bottom: 5px; /* Add space below the label */
+}
+
+/* Style the input elements */
+.signup-container input {
+  width: 100%; /* Make the input fields take full width of the parent */
+  padding: 8px; /* Add padding inside the input fields */
+  border: 1px solid #ccc; /* Add a border to the input fields */
+  border-radius: 3px; /* Round the corners of the input fields */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+/* Style for error messages */
+.signup-container .error {
+  color: red; /* Set the text color to red */
+  text-align: center; /* Center the error message */
+}
+
+/* Style the submit button */
+.signup-container button {
+  padding: 10px; /* Add padding inside the button */
+  border: none; /* Remove the default border */
+  background-color: #007bff; /* Set the background color */
+  color: white; /* Set the text color to white */
+  border-radius: 3px; /* Round the corners of the button */
+  cursor: pointer; /* Change the cursor to a pointer on hover */
+}
+
+/* Change button background color on hover */
+.signup-container button:hover {
+  background-color: #0056b3; /* Darken the background color on hover */
+}
